@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.7**
+**Latest: v0.1.9**
 
 | Platform | Download |
 |---|---|
-| 🪟 Windows | [Ada.Setup.0.1.7.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.7/Ada.Setup.0.1.7.exe) |
-| 🍎 macOS (Apple Silicon) | [Ada-0.1.7-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.7/Ada-0.1.7-arm64.dmg) |
-| 🍎 macOS (Intel) | [Ada-0.1.7.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.7/Ada-0.1.7.dmg) |
-| 🐧 Linux | [Ada-0.1.7.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.7/Ada-0.1.7.AppImage) |
+| 🪟 Windows | [Ada.Setup.0.1.9.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.9/Ada.Setup.0.1.9.exe) |
+| 🍎 macOS (Apple Silicon) | [Ada-0.1.9-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.9/Ada-0.1.9-arm64.dmg) |
+| 🍎 macOS (Intel) | [Ada-0.1.9.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.9/Ada-0.1.9.dmg) |
+| 🐧 Linux | [Ada-0.1.9.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.9/Ada-0.1.9.AppImage) |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -27,6 +27,7 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 - 🤖 **Full coding agent** — file edits, shell, search, 280+ skills, plan/ask/auto permission modes
 - 🌿 **Worktree isolation by default** — review the agent's branch, merge when happy
 - 🔀 **Switch models mid-chat** — models are stateless; the conversation carries over
+- 🧠 **Grounded in your code** — a repo map primes every session, and semantic search runs a **local** embedding model (no API key, offline, your code never leaves the machine)
 - 🧩 **Manage skills, MCP connectors & plugins** right in Settings — no config files
 - 🖼️ Paste images, 🎤 voice input, live context-usage meter, light & dark themes
 
