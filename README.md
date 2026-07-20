@@ -8,12 +8,12 @@
 
 **Latest: v0.1.13**
 
-| Platform | Download |
-|---|---|
-| 🪟 Windows | [Ada.Setup.0.1.13.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.13/Ada.Setup.0.1.13.exe) |
+| Platform                 | Download                                                                                                           |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| 🪟 Windows               | [Ada.Setup.0.1.13.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.13/Ada.Setup.0.1.13.exe) |
 | 🍎 macOS (Apple Silicon) | [Ada-0.1.13-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.13/Ada-0.1.13-arm64.dmg) |
-| 🍎 macOS (Intel) | [Ada-0.1.13.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.13/Ada-0.1.13.dmg) |
-| 🐧 Linux | [Ada-0.1.13.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.13/Ada-0.1.13.AppImage) |
+| 🍎 macOS (Intel)         | [Ada-0.1.13.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.13/Ada-0.1.13.dmg)             |
+| 🐧 Linux                 | [Ada-0.1.13.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.13/Ada-0.1.13.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -24,12 +24,27 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 3. **Open a folder** and ask Ada to build, fix, or explain. The agent works in an isolated git worktree (branch `ada/<id>`), so your working copy stays untouched until you merge.
 
 ### Highlights
+
 - 🤖 **Full coding agent** — file edits, shell, search, 280+ skills, plan/ask/auto permission modes
 - 🌿 **Worktree isolation by default** — review the agent's branch, merge when happy
 - 🔀 **Switch models mid-chat** — models are stateless; the conversation carries over
 - 🧠 **Grounded in your code** — a repo map primes every session, and semantic search runs a **local** embedding model (no API key, offline, your code never leaves the machine)
 - 🧩 **Manage skills, MCP connectors & plugins** right in Settings — no config files
-- 🖼️ Paste images, 🎤 voice input, live context-usage meter, light & dark themes
+- 🖼️ Paste images, live context-usage meter, light & dark themes
+
+## Built to be built by AI
+
+![harness-score](https://img.shields.io/badge/harness--score-108%2F108-2ea44f?style=flat-square) ![maturity](https://img.shields.io/badge/maturity-L4%20·%20Self--correcting-3b82f6?style=flat-square)
+
+We make an AI coding tool — so we hold our own codebase to the standard. [harness-score](https://paladini.github.io/harness-score/) measures how well a repo is set up for AI agents to work in safely: context, guardrails, automated sensors, and CI. Ada's codebase scores a **perfect 108/108 — L4, Self-correcting** (the top tier): every agent edit is auto-linted, every change is gated by CI, and destructive commands are blocked before they run.
+
+```mermaid
+xychart-beta
+    title "harness-score (of 108) — dogfooded to perfect"
+    x-axis ["Start", "+ Docs", "+ Full harness"]
+    y-axis "Score" 0 --> 108
+    bar [20, 33, 108]
+```
 
 ## Install notes
 
@@ -37,9 +52,9 @@ Ada isn't code-signed by the app stores yet, so on first launch your OS shows a 
 
 ### 🍎 macOS
 
-1. Open **Ada** — a dialog says *"Apple could not verify Ada is free of malware…"* → click **Done** (not "Move to Bin").
+1. Open **Ada** — a dialog says _"Apple could not verify Ada is free of malware…"_ → click **Done** (not "Move to Bin").
 2. Open **System Settings → Privacy & Security**.
-3. Scroll down to the message *"Ada" was blocked to protect your Mac* → click **Open Anyway**.
+3. Scroll down to the message _"Ada" was blocked to protect your Mac_ → click **Open Anyway**.
 4. Launch **Ada** again → click **Open Anyway** (may ask for your password / Touch ID).
 
 That's it — Ada opens normally from then on.
@@ -50,7 +65,7 @@ That's it — Ada opens normally from then on.
 
 Run the installer. If **SmartScreen** appears, click **More info → Run anyway**.
 
-*(These prompts exist because the builds aren't signed with a paid certificate yet — the app itself is safe.)*
+_(These prompts exist because the builds aren't signed with a paid certificate yet — the app itself is safe.)_
 
 ---
 
