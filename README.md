@@ -17,33 +17,13 @@
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
-
-## Install notes
-
-Ada isn't code-signed by the app stores yet, so on first launch your OS shows a standard security prompt. This is normal for indie apps — here's how to allow it (one time per install):
-
-### 🍎 macOS
-
-1. Open **Ada** — a dialog says _"Apple could not verify Ada is free of malware…"_ → click **Done** (not "Move to Bin").
-2. Open **System Settings → Privacy & Security**.
-3. Scroll down to the message _"Ada" was blocked to protect your Mac_ → click **Open Anyway**.
-4. Launch **Ada** again → click **Open Anyway** (may ask for your password / Touch ID).
-
-That's it — Ada opens normally from then on.
-
-> On older macOS (13 or earlier): just **right-click Ada.app → Open → Open**.
-
-### 🪟 Windows
-
-Run the installer. If **SmartScreen** appears, click **More info → Run anyway**.
-
 ## Quick start
 
 1. **Install and open Ada** — you can chat immediately with the free models, no account needed.
 2. **Sign in with GitHub** (top-right) to unlock the full model catalog — 340+ coding-capable models including Claude, GPT, and Gemini.
 3. **Open a folder** and ask Ada to build, fix, or explain. The agent works in an isolated git worktree (branch `ada/<id>`), so your working copy stays untouched until you merge.
 
-### Highlights
+## Highlights
 
 - 🤖 **Full coding agent** — file edits, shell, search, 280+ skills, plan/ask/auto permission modes
 - 🌿 **Worktree isolation by default** — review the agent's branch, merge when happy
@@ -66,8 +46,24 @@ xychart-beta
     bar [20, 33, 108]
 ```
 
+## Install notes
 
-_(These prompts exist because the builds aren't signed with a paid certificate yet — the app itself is safe.)_
+Ada isn't code-signed by the app stores yet, so on first launch your OS shows a standard security prompt. This is normal for indie apps — here's how to allow it (one time per install). _(These prompts exist because the builds aren't signed with a paid certificate yet — the app itself is safe.)_
+
+### 🍎 macOS
+
+1. Open **Ada** — a dialog says _"Apple could not verify Ada is free of malware…"_ → click **Done** (not "Move to Bin").
+2. Open **System Settings → Privacy & Security**.
+3. Scroll down to the message _"Ada" was blocked to protect your Mac_ → click **Open Anyway**.
+4. Launch **Ada** again → click **Open Anyway** (may ask for your password / Touch ID).
+
+That's it — Ada opens normally from then on.
+
+> On older macOS (13 or earlier): just **right-click Ada.app → Open → Open**.
+
+### 🪟 Windows
+
+Run the installer. If **SmartScreen** appears, click **More info → Run anyway**.
 
 ---
 
