@@ -17,6 +17,26 @@
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
+
+## Install notes
+
+Ada isn't code-signed by the app stores yet, so on first launch your OS shows a standard security prompt. This is normal for indie apps — here's how to allow it (one time per install):
+
+### 🍎 macOS
+
+1. Open **Ada** — a dialog says _"Apple could not verify Ada is free of malware…"_ → click **Done** (not "Move to Bin").
+2. Open **System Settings → Privacy & Security**.
+3. Scroll down to the message _"Ada" was blocked to protect your Mac_ → click **Open Anyway**.
+4. Launch **Ada** again → click **Open Anyway** (may ask for your password / Touch ID).
+
+That's it — Ada opens normally from then on.
+
+> On older macOS (13 or earlier): just **right-click Ada.app → Open → Open**.
+
+### 🪟 Windows
+
+Run the installer. If **SmartScreen** appears, click **More info → Run anyway**.
+
 ## Quick start
 
 1. **Install and open Ada** — you can chat immediately with the free models, no account needed.
@@ -46,24 +66,6 @@ xychart-beta
     bar [20, 33, 108]
 ```
 
-## Install notes
-
-Ada isn't code-signed by the app stores yet, so on first launch your OS shows a standard security prompt. This is normal for indie apps — here's how to allow it (one time per install):
-
-### 🍎 macOS
-
-1. Open **Ada** — a dialog says _"Apple could not verify Ada is free of malware…"_ → click **Done** (not "Move to Bin").
-2. Open **System Settings → Privacy & Security**.
-3. Scroll down to the message _"Ada" was blocked to protect your Mac_ → click **Open Anyway**.
-4. Launch **Ada** again → click **Open Anyway** (may ask for your password / Touch ID).
-
-That's it — Ada opens normally from then on.
-
-> On older macOS (13 or earlier): just **right-click Ada.app → Open → Open**.
-
-### 🪟 Windows
-
-Run the installer. If **SmartScreen** appears, click **More info → Run anyway**.
 
 _(These prompts exist because the builds aren't signed with a paid certificate yet — the app itself is safe.)_
 
