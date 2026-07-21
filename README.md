@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.17**
+**Latest: v0.1.18**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| 🪟 Windows               | [Ada.Setup.0.1.17.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.17/Ada.Setup.0.1.17.exe) |
-| 🍎 macOS (Apple Silicon) | [Ada-0.1.17-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.17/Ada-0.1.17-arm64.dmg) |
-| 🍎 macOS (Intel)         | [Ada-0.1.17.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.17/Ada-0.1.17.dmg)             |
-| 🐧 Linux                 | [Ada-0.1.17.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.17/Ada-0.1.17.AppImage)   |
+| 🪟 Windows               | [Ada-Setup-0.1.18.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.18/Ada-Setup-0.1.18.exe) |
+| 🍎 macOS (Apple Silicon) | [Ada-0.1.18-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.18/Ada-0.1.18-arm64.dmg) |
+| 🍎 macOS (Intel)         | [Ada-0.1.18.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.18/Ada-0.1.18.dmg)             |
+| 🐧 Linux                 | [Ada-0.1.18.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.18/Ada-0.1.18.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
