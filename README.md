@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.21**
+**Latest: v0.1.22**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| 🪟 Windows               | [Ada-Setup-0.1.21.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.21/Ada-Setup-0.1.21.exe) |
-| 🍎 macOS (Apple Silicon) | [Ada-0.1.21-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.21/Ada-0.1.21-arm64.dmg) |
-| 🍎 macOS (Intel)         | [Ada-0.1.21.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.21/Ada-0.1.21.dmg)             |
-| 🐧 Linux                 | [Ada-0.1.21.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.21/Ada-0.1.21.AppImage)   |
+| 🪟 Windows               | [Ada-Setup-0.1.22.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.22/Ada-Setup-0.1.22.exe) |
+| 🍎 macOS (Apple Silicon) | [Ada-0.1.22-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.22/Ada-0.1.22-arm64.dmg) |
+| 🍎 macOS (Intel)         | [Ada-0.1.22.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.22/Ada-0.1.22.dmg)             |
+| 🐧 Linux                 | [Ada-0.1.22.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.22/Ada-0.1.22.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -48,18 +48,9 @@ xychart-beta
 
 ## Install notes
 
-Ada isn't code-signed by the app stores yet, so on first launch your OS shows a standard security prompt. This is normal for indie apps — here's how to allow it (one time per install). _(These prompts exist because the builds aren't signed with a paid certificate yet — the app itself is safe.)_
-
 ### 🍎 macOS
 
-1. Open **Ada** — a dialog says _"Apple could not verify Ada is free of malware…"_ → click **Done** (not "Move to Bin").
-2. Open **System Settings → Privacy & Security**.
-3. Scroll down to the message _"Ada" was blocked to protect your Mac_ → click **Open Anyway**.
-4. Launch **Ada** again → click **Open Anyway** (may ask for your password / Touch ID).
-
-That's it — Ada opens normally from then on.
-
-> On older macOS (13 or earlier): just **right-click Ada.app → Open → Open**.
+Signed and notarized by Apple — just open the `.dmg`, drag **Ada** to Applications, and launch it. No security prompts.
 
 ### 🪟 Windows
 
