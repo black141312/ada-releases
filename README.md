@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.22**
+**Latest: v0.1.23**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| 🪟 Windows               | [Ada-Setup-0.1.22.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.22/Ada-Setup-0.1.22.exe) |
-| 🍎 macOS (Apple Silicon) | [Ada-0.1.22-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.22/Ada-0.1.22-arm64.dmg) |
-| 🍎 macOS (Intel)         | [Ada-0.1.22.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.22/Ada-0.1.22.dmg)             |
-| 🐧 Linux                 | [Ada-0.1.22.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.22/Ada-0.1.22.AppImage)   |
+| 🪟 Windows               | [Ada-Setup-0.1.23.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.23/Ada-Setup-0.1.23.exe) |
+| 🍎 macOS (Apple Silicon) | [Ada-0.1.23-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.23/Ada-0.1.23-arm64.dmg) |
+| 🍎 macOS (Intel)         | [Ada-0.1.23.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.23/Ada-0.1.23.dmg)             |
+| 🐧 Linux                 | [Ada-0.1.23.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.23/Ada-0.1.23.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -25,12 +25,46 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 
 ## Highlights
 
-- 🤖 **Full coding agent** — file edits, shell, search, 280+ skills, plan/ask/auto permission modes
+- 🤖 **Full coding agent** — file edits, shell, search, 290+ skills, plan/ask/auto permission modes
 - 🌿 **Worktree isolation by default** — review the agent's branch, merge when happy
 - 🔀 **Switch models mid-chat** — models are stateless; the conversation carries over
 - 🧠 **Grounded in your code** — a repo map primes every session, and semantic search runs a **local** embedding model (no API key, offline, your code never leaves the machine)
+- 🔎 **Find anything** — `Ctrl+P` opens a file by name, `Ctrl+Shift+F` searches text across the project, both from one palette
+- 📎 **Attach files as context** — pick them or drag them in from the tree; each becomes an `@name` chip you can click to open
+- 💬 **Chat without opening a folder** — and your recent projects stay one hover away
 - 🧩 **Manage skills, MCP connectors & plugins** right in Settings — no config files
 - 🖼️ Paste images, live context-usage meter, light & dark themes
+
+## What's new in v0.1.23
+
+**Search.** `Ctrl+P` to open a file by name, `Ctrl+Shift+F` to find text across the
+project — one palette, a real toggle between the two, and a button in the sidebar
+so the shortcuts aren't the only way in. Results jump to the line.
+
+**Files as context.** Attach files from a picker or drag them from the tree. Each
+becomes an `@name` chip you can click to open and hover to remove.
+
+**Chat without a folder.** "Just chat" on the welcome screen, one centred column,
+recent projects on hover.
+
+**Six new agent tools** — `git`, `browser` (screenshots, console and DOM from a real
+browser), `notebook_edit` for Jupyter files, `create_page` for self-contained HTML
+pages and slide decks, subagents that run in the editor, and `ui_ux_search`: a design
+corpus of 84 visual styles, 192 palettes and 74 font pairings the agent consults
+before it writes any UI.
+
+**Cheaper turns.** Tool schemas are now sent only when a turn actually needs them —
+an ordinary coding request carries 1,772 tokens of schemas instead of 3,848, and
+"hi" costs about 272 tokens instead of 6,000. Against Claude Code on five tasks in
+the same repo: 444k tokens against 893k, $3.05 against $4.68.
+
+**Fewer broken files.** JavaScript the agent writes is parsed before it reports
+success, so a missing bracket surfaces at write time instead of as a blank page.
+Ada also warns when a page it wrote needs the network to render.
+
+**Fixes.** Ada can ask you a question from the editor, not just the terminal; two
+streamed tool calls are no longer spliced into one; and when a provider rejects a
+request you now see its actual error instead of the router's wrapper.
 
 ## Built to be built by AI
 
