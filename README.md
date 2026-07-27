@@ -72,7 +72,7 @@ Five tasks, one repository, Ada against Claude Code — same machine, same model
 (Opus 4.7), same prompts, matched git checkouts:
 
 - **2× less context** — 444k tokens against 893k
-- **$3.05 against $4.68** in total, with repo-anchored tasks 20–75% cheaper
+- **35% cheaper overall** — $3.05 against $4.68, with repo-anchored tasks 20–75% cheaper
 - **4.5× cheaper on the presentation** — Ada writes a real `.pptx` natively instead of hand-building markup
 - In a four-build storefront shoot-out, Ada's build was **the only one a customer could log into** — users table, bcrypt password hashing, JWT sessions, and a role-gated admin, none of it asked for by the brief
 
