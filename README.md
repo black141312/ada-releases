@@ -66,6 +66,19 @@ Ada also warns when a page it wrote needs the network to render.
 streamed tool calls are no longer spliced into one; and when a provider rejects a
 request you now see its actual error instead of the router's wrapper.
 
+## Benchmarked, not vibes
+
+Five tasks, one repository, Ada against Claude Code — same machine, same model
+(Opus 4.7), same prompts, matched git checkouts:
+
+- **2× less context** — 444k tokens against 893k
+- **$3.05 against $4.68** in total, with repo-anchored tasks 20–75% cheaper
+- **4.5× cheaper on the presentation** — Ada writes a real `.pptx` natively instead of hand-building markup
+- In a four-build storefront shoot-out, Ada's build was **the only one a customer could log into** — users table, bcrypt password hashing, JWT sessions, and a role-gated admin, none of it asked for by the brief
+
+The full report — screenshots of the app and every build, per-task tables, and method:
+**[Ada-Report-v0.1.23.pdf](https://github.com/black141312/ada-releases/releases/download/v0.1.23/Ada-Report-v0.1.23.pdf)**
+
 ## Built to be built by AI
 
 ![harness-score](https://img.shields.io/badge/harness--score-108%2F108-2ea44f?style=flat-square) ![maturity](https://img.shields.io/badge/maturity-L4%20·%20Self--correcting-3b82f6?style=flat-square)
