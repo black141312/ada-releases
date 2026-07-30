@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.23**
+**Latest: v0.1.25**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| 🪟 Windows               | [Ada-Setup-0.1.23.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.23/Ada-Setup-0.1.23.exe) |
-| 🍎 macOS (Apple Silicon) | [Ada-0.1.23-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.23/Ada-0.1.23-arm64.dmg) |
-| 🍎 macOS (Intel)         | [Ada-0.1.23.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.23/Ada-0.1.23.dmg)             |
-| 🐧 Linux                 | [Ada-0.1.23.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.23/Ada-0.1.23.AppImage)   |
+| 🪟 Windows               | [Ada-Setup-0.1.25.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.25/Ada-Setup-0.1.25.exe) |
+| 🍎 macOS (Apple Silicon) | [Ada-0.1.25-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.25/Ada-0.1.25-arm64.dmg) |
+| 🍎 macOS (Intel)         | [Ada-0.1.25.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.25/Ada-0.1.25.dmg)             |
+| 🐧 Linux                 | [Ada-0.1.25.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.25/Ada-0.1.25.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -35,7 +35,7 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 - 🧩 **Manage skills, MCP connectors & plugins** right in Settings — no config files
 - 🖼️ Paste images, live context-usage meter, light & dark themes
 
-## What's new in v0.1.23
+## What's new in v0.1.25
 
 **Search.** `Ctrl+P` to open a file by name, `Ctrl+Shift+F` to find text across the
 project — one palette, a real toggle between the two, and a button in the sidebar
@@ -77,7 +77,7 @@ Five tasks, one repository, Ada against Claude Code — same machine, same model
 - In a four-build storefront shoot-out, Ada's build was **the only one a customer could log into** — users table, bcrypt password hashing, JWT sessions, and a role-gated admin, none of it asked for by the brief
 
 The full report — screenshots of the app and every build, per-task tables, and method:
-**[Ada-Report-v0.1.23.pdf](https://github.com/black141312/ada-releases/releases/download/v0.1.23/Ada-Report-v0.1.23.pdf)**
+**[Ada-Report-v0.1.25.pdf](https://github.com/black141312/ada-releases/releases/download/v0.1.25/Ada-Report-v0.1.25.pdf)**
 
 ## Built to be built by AI
 
