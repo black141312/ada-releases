@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.25**
+**Latest: v0.1.26**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| 🪟 Windows               | [Ada-Setup-0.1.25.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.25/Ada-Setup-0.1.25.exe) |
-| 🍎 macOS (Apple Silicon) | [Ada-0.1.25-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.25/Ada-0.1.25-arm64.dmg) |
-| 🍎 macOS (Intel)         | [Ada-0.1.25.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.25/Ada-0.1.25.dmg)             |
-| 🐧 Linux                 | [Ada-0.1.25.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.25/Ada-0.1.25.AppImage)   |
+| 🪟 Windows               | [Ada-Setup-0.1.26.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.26/Ada-Setup-0.1.26.exe) |
+| 🍎 macOS (Apple Silicon) | [Ada-0.1.26-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.26/Ada-0.1.26-arm64.dmg) |
+| 🍎 macOS (Intel)         | [Ada-0.1.26.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.26/Ada-0.1.26.dmg)             |
+| 🐧 Linux                 | [Ada-0.1.26.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.26/Ada-0.1.26.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -35,36 +35,27 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 - 🧩 **Manage skills, MCP connectors & plugins** right in Settings — no config files
 - 🖼️ Paste images, live context-usage meter, light & dark themes
 
-## What's new in v0.1.25
+## What's new in v0.1.26
 
-**Search.** `Ctrl+P` to open a file by name, `Ctrl+Shift+F` to find text across the
-project — one palette, a real toggle between the two, and a button in the sidebar
-so the shortcuts aren't the only way in. Results jump to the line.
+**A new interface.** Ada is rebuilt on a design called Nocturne — a blurple accent on a
+desaturated indigo ground, an icon rail down the left edge, a status strip along the bottom.
+Five accent themes ship with it (blurple, ember, moss, rose, steel); the ground stays neutral
+and only the accent moves, so switching retints the app without repainting it.
 
-**Files as context.** Attach files from a picker or drag them from the tree. Each
-becomes an `@name` chip you can click to open and hover to remove.
+**Review your changes without leaving Ada.** A git screen: stage and unstage file by file,
+read the diff unified or side by side, see the branch, its commits and what's ahead of the
+remote, then commit and push.
 
-**Chat without a folder.** "Just chat" on the welcome screen, one centred column,
-recent projects on hover.
+**Every session in one place.** History now spans every project Ada has opened — not just the
+recent ones — grouped by day, split into Chat and Code, searchable, and deletable a row at a
+time. Chats that aren't bound to a folder live alongside the rest.
 
-**Six new agent tools** — `git`, `browser` (screenshots, console and DOM from a real
-browser), `notebook_edit` for Jupyter files, `create_page` for self-contained HTML
-pages and slide decks, subagents that run in the editor, and `ui_ux_search`: a design
-corpus of 84 visual styles, 192 palettes and 74 font pairings the agent consults
-before it writes any UI.
+**A home screen.** Pick up a session where you left it, see an activity heatmap of the last
+four months, your recent repositories, and how much of your token allowance is gone.
 
-**Cheaper turns.** Tool schemas are now sent only when a turn actually needs them —
-an ordinary coding request carries 1,772 tokens of schemas instead of 3,848, and
-"hi" costs about 272 tokens instead of 6,000. Against Claude Code on five tasks in
-the same repo: 444k tokens against 893k, $3.05 against $4.68.
+**The editor holds more than one file.** Open several and they become tabs. File icons say what
+kind of file each one is, and colour in the tree means "changed" rather than "JavaScript".
 
-**Fewer broken files.** JavaScript the agent writes is parsed before it reports
-success, so a missing bracket surfaces at write time instead of as a blank page.
-Ada also warns when a page it wrote needs the network to render.
-
-**Fixes.** Ada can ask you a question from the editor, not just the terminal; two
-streamed tool calls are no longer spliced into one; and when a provider rejects a
-request you now see its actual error instead of the router's wrapper.
 
 ## Benchmarked, not vibes
 
