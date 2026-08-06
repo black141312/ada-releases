@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.28**
+**Latest: v0.1.43**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| 🪟 Windows               | [Ada-Setup-0.1.28.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.28/Ada-Setup-0.1.28.exe) |
-| 🍎 macOS (Apple Silicon) | [Ada-0.1.28-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.28/Ada-0.1.28-arm64.dmg) |
-| 🍎 macOS (Intel)         | [Ada-0.1.28.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.28/Ada-0.1.28.dmg)             |
-| 🐧 Linux                 | [Ada-0.1.28.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.28/Ada-0.1.28.AppImage)   |
+| 🪟 Windows               | [Ada-Setup-0.1.43.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.43/Ada-Setup-0.1.43.exe) |
+| 🍎 macOS (Apple Silicon) | [Ada-0.1.43-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.43/Ada-0.1.43-arm64.dmg) |
+| 🍎 macOS (Intel)         | [Ada-0.1.43.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.43/Ada-0.1.43.dmg)             |
+| 🐧 Linux                 | [Ada-0.1.43.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.43/Ada-0.1.43.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -35,21 +35,23 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 - 🧩 **Manage skills, MCP connectors & plugins** right in Settings — no config files
 - 🖼️ Paste images, live context-usage meter, light & dark themes
 
-## What's new in v0.1.28
+## What's new in v0.1.43
 
-**A knowledge graph behind memory.** Facts you ask Ada to remember become edges in a temporal
-graph — subject, predicate, object, true over a span of time. A contradicting fact invalidates the
-old one rather than deleting it, so "what did we believe last month" stays answerable. Recall pulls
-in related facts, not just matching ones, and the agent can query the graph directly.
+**Answer Ada's questions from the composer.** When the agent needs a decision, the options appear
+above the input as numbered rows — each with a line explaining what choosing it means. Press `1`–`9`
+to pick, or arrow through them, or just type your own answer. One input, one Enter key.
 
-**Markdown renders in the chat.** Headings, lists, rules, quotes and code arrive as formatting
-instead of raw text.
+**Retry a failed turn.** A request that fails now offers Retry instead of leaving you to retype it.
+Switch models first and the same message — images included — goes to the new one.
 
-**A new interface.** Ada is rebuilt on a design called Nocturne — a blurple accent on a desaturated
-indigo ground, an icon rail down the left edge, a status strip along the bottom, and five accent
-themes. A git review screen stages files and commits. History spans every project, grouped by day.
-The home screen picks up sessions, charts activity, and shows token usage. The editor holds
-multiple files as tabs.
+**Adding a folder keeps your conversation.** Attaching a second folder mid-chat used to reset the
+session; the folder now joins the workspace without touching the thread.
+
+**Terminal fixes.** Output no longer prints twice after switching projects, and a long path in the
+title bar is truncated instead of pushing itself over the shell.
+
+Releases between v0.1.28 and this one are listed on the
+[Releases page](https://github.com/black141312/ada-releases/releases).
 
 ## Benchmarked, not vibes
 
