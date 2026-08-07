@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.43**
+**Latest: v0.1.44**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| 🪟 Windows               | [Ada-Setup-0.1.43.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.43/Ada-Setup-0.1.43.exe) |
-| 🍎 macOS (Apple Silicon) | [Ada-0.1.43-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.43/Ada-0.1.43-arm64.dmg) |
-| 🍎 macOS (Intel)         | [Ada-0.1.43.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.43/Ada-0.1.43.dmg)             |
-| 🐧 Linux                 | [Ada-0.1.43.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.43/Ada-0.1.43.AppImage)   |
+| 🪟 Windows               | [Ada-Setup-0.1.44.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.44/Ada-Setup-0.1.44.exe) |
+| 🍎 macOS (Apple Silicon) | [Ada-0.1.44-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.44/Ada-0.1.44-arm64.dmg) |
+| 🍎 macOS (Intel)         | [Ada-0.1.44.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.44/Ada-0.1.44.dmg)             |
+| 🐧 Linux                 | [Ada-0.1.44.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.44/Ada-0.1.44.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -35,7 +35,7 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 - 🧩 **Manage skills, MCP connectors & plugins** right in Settings — no config files
 - 🖼️ Paste images, live context-usage meter, light & dark themes
 
-## What's new in v0.1.43
+## What's new in v0.1.44
 
 **Answer Ada's questions from the composer.** When the agent needs a decision, the options appear
 above the input as numbered rows — each with a line explaining what choosing it means. Press `1`–`9`
