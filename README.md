@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.45**
+**Latest: v0.1.46**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| 🪟 Windows               | [Ada-Setup-0.1.45.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.45/Ada-Setup-0.1.45.exe) |
-| 🍎 macOS (Apple Silicon) | [Ada-0.1.45-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.45/Ada-0.1.45-arm64.dmg) |
-| 🍎 macOS (Intel)         | [Ada-0.1.45.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.45/Ada-0.1.45.dmg)             |
-| 🐧 Linux                 | [Ada-0.1.45.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.45/Ada-0.1.45.AppImage)   |
+| 🪟 Windows               | [Ada-Setup-0.1.46.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.46/Ada-Setup-0.1.46.exe) |
+| 🍎 macOS (Apple Silicon) | [Ada-0.1.46-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.46/Ada-0.1.46-arm64.dmg) |
+| 🍎 macOS (Intel)         | [Ada-0.1.46.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.46/Ada-0.1.46.dmg)             |
+| 🐧 Linux                 | [Ada-0.1.46.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.46/Ada-0.1.46.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -35,23 +35,17 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 - 🧩 **Manage skills, MCP connectors & plugins** right in Settings — no config files
 - 🖼️ Paste images, live context-usage meter, light & dark themes
 
-## What's new in v0.1.45
+## What's new in v0.1.46
 
-**Answer Ada's questions from the composer.** When the agent needs a decision, the options appear
-above the input as numbered rows — each with a line explaining what choosing it means. Press `1`–`9`
-to pick, or arrow through them, or just type your own answer. One input, one Enter key.
+**Several chats at once.** One chat no longer holds up the rest. Start something long, switch to
+another conversation, and keep working — each chat streams on its own, with its own queued message
+and its own parked questions. The list tells you which is which: a spinning mark means Ada is
+working, a still question mark means it is waiting on you.
 
-**Retry a failed turn.** A request that fails now offers Retry instead of leaving you to retype it.
-Switch models first and the same message — images included — goes to the new one.
-
-**Adding a folder keeps your conversation.** Attaching a second folder mid-chat used to reset the
-session; the folder now joins the workspace without touching the thread.
-
-**Terminal fixes.** Output no longer prints twice after switching projects, and a long path in the
-title bar is truncated instead of pushing itself over the shell.
-
-Releases between v0.1.28 and this one are listed on the
-[Releases page](https://github.com/black141312/ada-releases/releases).
+**Background jobs you can actually read.** Work handed off to run in the background used to finish
+into a void — the answer was written somewhere nothing could reach. Those jobs now appear in the
+tasks panel under the chat that started them, survive a restart, and open on click to show what
+they produced. You can stop one that is going nowhere, and the chat's badge says when one is done.
 
 ## Benchmarked, not vibes
 
