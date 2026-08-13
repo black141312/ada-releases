@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.48**
+**Latest: v0.1.49**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| 🪟 Windows               | [Ada-Setup-0.1.48.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.48/Ada-Setup-0.1.48.exe) |
-| 🍎 macOS (Apple Silicon) | [Ada-0.1.48-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.48/Ada-0.1.48-arm64.dmg) |
-| 🍎 macOS (Intel)         | [Ada-0.1.48.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.48/Ada-0.1.48.dmg)             |
-| 🐧 Linux                 | [Ada-0.1.48.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.48/Ada-0.1.48.AppImage)   |
+| 🪟 Windows               | [Ada-Setup-0.1.49.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.49/Ada-Setup-0.1.49.exe) |
+| 🍎 macOS (Apple Silicon) | [Ada-0.1.49-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.49/Ada-0.1.49-arm64.dmg) |
+| 🍎 macOS (Intel)         | [Ada-0.1.49.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.49/Ada-0.1.49.dmg)             |
+| 🐧 Linux                 | [Ada-0.1.49.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.49/Ada-0.1.49.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -35,7 +35,7 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 - 🧩 **Manage skills, MCP connectors & plugins** right in Settings — no config files
 - 🖼️ Paste images, live context-usage meter, light & dark themes
 
-## What's new in v0.1.48
+## What's new in v0.1.49
 
 **Several chats at once.** One chat no longer holds up the rest. Start something long, switch to
 another conversation, and keep working — each chat streams on its own, with its own queued message
