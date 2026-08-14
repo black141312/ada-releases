@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.49**
+**Latest: v0.1.50**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| 🪟 Windows               | [Ada-Setup-0.1.49.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.49/Ada-Setup-0.1.49.exe) |
-| 🍎 macOS (Apple Silicon) | [Ada-0.1.49-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.49/Ada-0.1.49-arm64.dmg) |
-| 🍎 macOS (Intel)         | [Ada-0.1.49.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.49/Ada-0.1.49.dmg)             |
-| 🐧 Linux                 | [Ada-0.1.49.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.49/Ada-0.1.49.AppImage)   |
+| 🪟 Windows               | [Ada-Setup-0.1.50.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.50/Ada-Setup-0.1.50.exe) |
+| 🍎 macOS (Apple Silicon) | [Ada-0.1.50-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.50/Ada-0.1.50-arm64.dmg) |
+| 🍎 macOS (Intel)         | [Ada-0.1.50.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.50/Ada-0.1.50.dmg)             |
+| 🐧 Linux                 | [Ada-0.1.50.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.50/Ada-0.1.50.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -35,17 +35,13 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 - 🧩 **Manage skills, MCP connectors & plugins** right in Settings — no config files
 - 🖼️ Paste images, live context-usage meter, light & dark themes
 
-## What's new in v0.1.49
+## What's new in v0.1.50
 
-**Several chats at once.** One chat no longer holds up the rest. Start something long, switch to
-another conversation, and keep working — each chat streams on its own, with its own queued message
-and its own parked questions. The list tells you which is which: a spinning mark means Ada is
-working, a still question mark means it is waiting on you.
-
-**Background jobs you can actually read.** Work handed off to run in the background used to finish
-into a void — the answer was written somewhere nothing could reach. Those jobs now appear in the
-tasks panel under the chat that started them, survive a restart, and open on click to show what
-they produced. You can stop one that is going nowhere, and the chat's badge says when one is done.
+**No more picking a model your plan can't run.** Sign in to a Claude plan while a model from
+another provider is selected and it used to stay selected — the picker keeps your current model on
+screen on purpose, so nothing ever moved it aside, and every message failed. Ada now moves you to
+the first model your plan offers. It waits until your plan's models have actually loaded before
+doing so, so a slow start never takes away a choice that was fine.
 
 ## Benchmarked, not vibes
 
