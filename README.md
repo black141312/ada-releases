@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.50**
+**Latest: v0.1.51**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| 🪟 Windows               | [Ada-Setup-0.1.50.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.50/Ada-Setup-0.1.50.exe) |
-| 🍎 macOS (Apple Silicon) | [Ada-0.1.50-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.50/Ada-0.1.50-arm64.dmg) |
-| 🍎 macOS (Intel)         | [Ada-0.1.50.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.50/Ada-0.1.50.dmg)             |
-| 🐧 Linux                 | [Ada-0.1.50.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.50/Ada-0.1.50.AppImage)   |
+| 🪟 Windows               | [Ada-Setup-0.1.51.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.51/Ada-Setup-0.1.51.exe) |
+| 🍎 macOS (Apple Silicon) | [Ada-0.1.51-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.51/Ada-0.1.51-arm64.dmg) |
+| 🍎 macOS (Intel)         | [Ada-0.1.51.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.51/Ada-0.1.51.dmg)             |
+| 🐧 Linux                 | [Ada-0.1.51.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.51/Ada-0.1.51.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -35,13 +35,17 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 - 🧩 **Manage skills, MCP connectors & plugins** right in Settings — no config files
 - 🖼️ Paste images, live context-usage meter, light & dark themes
 
-## What's new in v0.1.50
+## What's new in v0.1.51
 
-**No more picking a model your plan can't run.** Sign in to a Claude plan while a model from
-another provider is selected and it used to stay selected — the picker keeps your current model on
-screen on purpose, so nothing ever moved it aside, and every message failed. Ada now moves you to
-the first model your plan offers. It waits until your plan's models have actually loaded before
-doing so, so a slow start never takes away a choice that was fine.
+**A Cursor-style sidebar for Code sessions.** A Repositories header with an ordering menu
+(Updated / Name / Created) and a folder picker — search your recent projects or browse, and land
+straight in a new session there. Folder rows use the familiar chevron-on-hover idiom, titles align
+under their folder, and the status dot appears only while a chat is actually running.
+
+**Honest errors.** A dropped connection or timeout now shows a proper card — Request timed out,
+Connection lost — with a Retry button, instead of a bare backend error line in the transcript.
+Half-typed drafts also stay with the chat they were typed in when you switch threads.
+
 
 ## Benchmarked, not vibes
 
