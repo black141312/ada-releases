@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.52**
+**Latest: v0.1.53**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| ðŸªŸ Windows               | [Ada-Setup-0.1.52.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.52/Ada-Setup-0.1.52.exe) |
-| ðŸŽ macOS (Apple Silicon) | [Ada-0.1.52-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.52/Ada-0.1.52-arm64.dmg) |
-| ðŸŽ macOS (Intel)         | [Ada-0.1.52.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.52/Ada-0.1.52.dmg)             |
-| ðŸ§ Linux                 | [Ada-0.1.52.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.52/Ada-0.1.52.AppImage)   |
+| ðŸªŸ Windows               | [Ada-Setup-0.1.53.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.53/Ada-Setup-0.1.53.exe) |
+| ðŸŽ macOS (Apple Silicon) | [Ada-0.1.53-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.53/Ada-0.1.53-arm64.dmg) |
+| ðŸŽ macOS (Intel)         | [Ada-0.1.53.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.53/Ada-0.1.53.dmg)             |
+| ðŸ§ Linux                 | [Ada-0.1.53.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.53/Ada-0.1.53.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -35,7 +35,7 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 - ðŸ§© **Manage skills, MCP connectors & plugins** right in Settings â€” no config files
 - ðŸ–¼ï¸ Paste images, live context-usage meter, light & dark themes
 
-## What's new in v0.1.52
+## What's new in v0.1.53
 
 **A Cursor-style sidebar for Code sessions.** A Repositories header with an ordering menu
 (Updated / Name / Created) and a folder picker â€” search your recent projects or browse, and land
