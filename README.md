@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.53**
+**Latest: v0.1.58**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| ðŸªŸ Windows               | [Ada-Setup-0.1.53.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.53/Ada-Setup-0.1.53.exe) |
-| ðŸŽ macOS (Apple Silicon) | [Ada-0.1.53-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.53/Ada-0.1.53-arm64.dmg) |
-| ðŸŽ macOS (Intel)         | [Ada-0.1.53.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.53/Ada-0.1.53.dmg)             |
-| ðŸ§ Linux                 | [Ada-0.1.53.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.53/Ada-0.1.53.AppImage)   |
+| ðŸªŸ Windows               | [Ada-Setup-0.1.58.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.58/Ada-Setup-0.1.58.exe) |
+| ðŸŽ macOS (Apple Silicon) | [Ada-0.1.58-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.58/Ada-0.1.58-arm64.dmg) |
+| ðŸŽ macOS (Intel)         | [Ada-0.1.58.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.58/Ada-0.1.58.dmg)             |
+| ðŸ§ Linux                 | [Ada-0.1.58.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.58/Ada-0.1.58.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -35,16 +35,25 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 - ðŸ§© **Manage skills, MCP connectors & plugins** right in Settings â€” no config files
 - ðŸ–¼ï¸ Paste images, live context-usage meter, light & dark themes
 
-## What's new in v0.1.53
+## What's new in v0.1.58
 
-**A Cursor-style sidebar for Code sessions.** A Repositories header with an ordering menu
-(Updated / Name / Created) and a folder picker â€” search your recent projects or browse, and land
-straight in a new session there. Folder rows use the familiar chevron-on-hover idiom, titles align
-under their folder, and the status dot appears only while a chat is actually running.
+**The browser Ada drives stays the size you left it.** Every browser action used to force the page
+into a 1280×800 viewport. That is right for Ada's own scratch browser, where a fixed size keeps
+screenshots comparable between runs — but against the Chrome you are actually reading, it squeezed
+the page into a letterbox inside your much larger window and left it there until Chrome restarted.
+Ada also no longer opens `about:blank` in the window it is about to read, which had been stealing
+your active tab.
 
-**Honest errors.** A dropped connection or timeout now shows a proper card â€” Request timed out,
-Connection lost â€” with a Retry button, instead of a bare backend error line in the transcript.
-Half-typed drafts also stay with the chat they were typed in when you switch threads.
+**Jump to latest.** Scroll up a long thread and a pill appears above the composer to take you back
+to the newest message in one click.
+
+### Since v0.1.53
+
+- **Auto** picks the model as well as the shape of each turn — the small-and-fast tier for ordinary work (v0.1.57)
+- **Usage as a bar** wherever a quota appears: Settings, the home card, the model picker, the context popover (v0.1.57)
+- **Read what does not fit** — one worker per chunk answers questions about a file too big for the window; measured on a 10 MB listing, 175 workers, every match found (v0.1.56)
+- **Codebase search stopped dropping most of each file** — 30-line chunks took embedded code from 42% to 90% (v0.1.55)
+- **Indexing no longer crashes the backend** — a ~2.1 GB peak allocation was behind fifteen crash reports (v0.1.54)
 
 
 ## Benchmarked, not vibes
