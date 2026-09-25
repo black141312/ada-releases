@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.58**
+**Latest: v0.1.66**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| ðŸªŸ Windows               | [Ada-Setup-0.1.58.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.58/Ada-Setup-0.1.58.exe) |
-| ðŸŽ macOS (Apple Silicon) | [Ada-0.1.58-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.58/Ada-0.1.58-arm64.dmg) |
-| ðŸŽ macOS (Intel)         | [Ada-0.1.58.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.58/Ada-0.1.58.dmg)             |
-| ðŸ§ Linux                 | [Ada-0.1.58.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.58/Ada-0.1.58.AppImage)   |
+| ðŸªŸ Windows               | [Ada-Setup-0.1.66.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.66/Ada-Setup-0.1.66.exe) |
+| ðŸŽ macOS (Apple Silicon) | [Ada-0.1.66-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.66/Ada-0.1.66-arm64.dmg) |
+| ðŸŽ macOS (Intel)         | [Ada-0.1.66.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.66/Ada-0.1.66.dmg)             |
+| ðŸ§ Linux                 | [Ada-0.1.66.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.66/Ada-0.1.66.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -35,7 +35,14 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 - ðŸ§© **Manage skills, MCP connectors & plugins** right in Settings â€” no config files
 - ðŸ–¼ï¸ Paste images, live context-usage meter, light & dark themes
 
-## What's new in v0.1.58
+## What's new in v0.1.66
+
+- **Class** now plays on a chalkboard: slides are hand-drawn chalk pages that build up word by word as the teacher speaks
+- **Natural local voice** for English lessons (Kokoro) — no key, works offline after a one-time download; a **mute** button keeps captions only
+- **Animation slides** that show motion — graphs drawing, objects moving, items swapping — in step with the narration
+- **Stricter simulations** with Ada's own Play / Step / Reset controls; broken ones are caught and rebuilt
+
+## Earlier (v0.1.58)
 
 **The browser Ada drives stays the size you left it.** Every browser action used to force the page
 into a 1280×800 viewport. That is right for Ada's own scratch browser, where a fixed size keeps
