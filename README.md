@@ -6,14 +6,14 @@
 
 ## Download
 
-**Latest: v0.1.66**
+**Latest: v0.1.69**
 
 | Platform                 | Download                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| 🪟 Windows               | [Ada-Setup-0.1.66.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.66/Ada-Setup-0.1.66.exe) |
-| 🍎 macOS (Apple Silicon) | [Ada-0.1.66-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.66/Ada-0.1.66-arm64.dmg) |
-| 🍎 macOS (Intel)         | [Ada-0.1.66.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.66/Ada-0.1.66.dmg)             |
-| 🐧 Linux                 | [Ada-0.1.66.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.66/Ada-0.1.66.AppImage)   |
+| 🪟 Windows               | [Ada-Setup-0.1.69.exe](https://github.com/black141312/ada-releases/releases/download/v0.1.69/Ada-Setup-0.1.69.exe) |
+| 🍎 macOS (Apple Silicon) | [Ada-0.1.69-arm64.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.69/Ada-0.1.69-arm64.dmg) |
+| 🍎 macOS (Intel)         | [Ada-0.1.69.dmg](https://github.com/black141312/ada-releases/releases/download/v0.1.69/Ada-0.1.69.dmg)             |
+| 🐧 Linux                 | [Ada-0.1.69.AppImage](https://github.com/black141312/ada-releases/releases/download/v0.1.69/Ada-0.1.69.AppImage)   |
 
 All versions: see [Releases](https://github.com/black141312/ada-releases/releases).
 
@@ -35,7 +35,16 @@ All versions: see [Releases](https://github.com/black141312/ada-releases/release
 - 🧩 **Manage skills, MCP connectors & plugins** right in Settings — no config files
 - 🖼️ Paste images, live context-usage meter, light & dark themes
 
-## What's new in v0.1.66
+## What's new in v0.1.69
+
+- **Robots** tab: simulate robot arms in 3D, give them tasks, and train small models that run them — then drive a real SO-100 arm over USB (tested on a simulated arm only)
+- **Teach** tab: teach Ada a small decision model from examples — phrases → actions, or situations → actions — with an honest score and "not sure" for nonsense; AI can suggest examples
+- **Voice assistant**: talk to your model right in Ada ("hey computer, …"), offline speech recognition, replies spoken aloud, optional web links to switch things like smart plugs
+- **Make voice assistant app**: turn a trained model into a stand-alone Windows app you double-click — no setup, works offline
+- **Run on a device**: export a robot model, voice assistant or smart home screen (clock, tiles, automatic rules) to a Raspberry Pi or any PC with Chromium
+- **Marketing**: ask about a campaign; the campaign chat knows what each play produced
+
+## Earlier (v0.1.66)
 
 - **Class** now plays on a chalkboard: slides are hand-drawn chalk pages that build up word by word as the teacher speaks
 - **Natural local voice** for English lessons (Kokoro) — no key, works offline after a one-time download; a **mute** button keeps captions only
